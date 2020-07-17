@@ -2,9 +2,11 @@
     "name": "line-sticker-downloader",
     "version": "1.0.0",
     "main": "src/index.js",
-    "bin": "src/index.js",
     "author": "Kent <contact@kentnek.com>",
     "license": "MIT",
+    "scripts": {
+        "start": "node src/index.js"
+    },
     "dependencies": {
         "fs-extra": "^6.0.1",
         "readline-promise": "^1.0.3",
